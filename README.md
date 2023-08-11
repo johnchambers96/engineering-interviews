@@ -1,47 +1,80 @@
-# Engineering Interviews: Technical Challenge Branches
+# Stateful Next.js Application Code Challenge
 
-## 🌟 **Welcome to the GitHub repository for Engineering Interviews' Technical Challenge Branches!** 🌟
+Welcome to the Stateful Next.js Application Code Challenge! This challenge is designed to assess your ability to use state in a Next.js application and interact with an API to retrieve and manipulate data.
 
-The `main` branch serves as a central place for hosting this README file that provides an overview of the various subject specialist branches. Each branch focuses on a specific subject area and contains instructions and resources for candidates taking the technical challenges as part of the interview process.
+**Please note: The emphasis of this challenge is on implementation rather than visual design. You are not expected to make the app look perfect.**
 
-## Branches 🌲
+## Challenge Overview
 
-Here are the current subject specialist branches available in this repository:
+The goal of this code challenge is to build a simple application using the template provided. The application should demonstrate the use of state to manage selected items and persist the state across page changes.
 
-### 1. Frontend Next.js Branch
+The challenge consists of the following tasks:
 
-🌐 Branch Name: `frontend-nextjs`
+1. Set up the Next.js application using the provided template.
+2. Create a component to fetch data from an API (e.g., GitHub API) and display a list of items.
+3. Implement functionality to allow users to select/unselect items from the list.
+4. Persist the selected items' state across page changes.
 
-This branch contains instructions for the Frontend Next.js Technical Challenge. It provides detailed guidance, code examples, and resources to help candidates prepare for this specific challenge. Please switch to this branch to access the relevant information related to the Frontend Next.js challenge.
+## Stretch Goals
 
-To switch to the `frontend-nextjs` branch, use the following command:
+While not required, you may attempt one or more of the following stretch goals to further enhance your application:
 
-```bash
-git checkout frontend-nextjs
-```
+1. **Unit Tests:** Add unit tests to your application to ensure the functionality of various components and modules.
+2. **Authentication:** Implement authentication into the application using GitHub OAuth integration or any other authentication method of your choice.
 
-## Instructions for Candidates 📖
+Please note that these stretch goals are not expected to be delivered unless you are applying for a senior role. However, we welcome all applicants to attempt one or more of them if they are interested and have the capacity to do so.
 
-If you are a prospective candidate participating in the engineering interview process, please follow these steps to make the most out of this repository:
+## Language and Libraries
 
-1. Clone this repository to your local machine:
+- **Language:** It is expected that you use TypeScript rather than JavaScript for this challenge.
+- **Libraries:** You are welcome to upgrade or install any new libraries you feel are necessary for the challenge. However, please justify your choices and explain why you decided to use a specific library.
+- **State Management:** You may use any state management solution of your choice. However, the decision must be justified, explaining why you selected a particular state management solution.
 
-2. Switch to the branch corresponding to the technical challenge you are undertaking. For example, if you are working on the Frontend Next.js challenge:
+## Time Limit
 
-```bash
-git checkout frontend-nextjs
-```
+Please note that the expected completion time for this code challenge is approximately one hour. The intention is to assess your ability to implement the required functionality within a reasonable timeframe.
 
-3. Read the instructions and guidelines provided in the branch's README file carefully.
+## Getting Started
 
-4. Utilise the provided resources, code examples, and any additional documentation to complete the challenge.
+To get started with the challenge, follow these steps:
 
-5. Once you have completed the challenge, follow the submission instructions mentioned in the README file of the respective branch.
+1. Fork this repository on GitHub.
+2. Clone the forked repository to your local machine.
+3. Install the project dependencies by running `npm install` in the project root directory.
+4. Start the development server using `npm run dev`.
 
-Please note that this repository is intended solely for candidates participating in the interview process, and contributions or suggestions from external sources are not accepted.
+## Requirements
 
-## Support 🙏
+To successfully complete this code challenge, make sure to fulfill the following requirements:
 
-If you encounter any issues, have questions, or need further assistance related to the technical challenges or the interview process, please reach out to the interview coordinator or the designated contact person for support.
+- Use Next.js as the framework for the application.
+- Use state management to keep track of the selected items.
+- Implement an API integration (e.g., GitHub API) to retrieve a list of items.
+- Display the list of items and allow users to select/unselect them.
+- Ensure that the selected items' state persists across page changes.
 
-🍀 Best of luck with your technical challenges and the engineering interview process! 🍀
+## Submission
+
+Once you have completed the code challenge, create a new branch and push your changes to your forked repository. Then, open a pull request to the original repository.
+
+## Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [GitHub REST API](https://docs.github.com/en/rest)
+
+## Example App Screenshots
+
+![Screenshot 1](screenshots/screen1.png)
+
+![Screenshot 2](screenshots/screen2.png)
+
+![Screenshot 3](screenshots/screen3.png)
+
+## Tips
+
+- Take your time to plan and understand the requirements before diving into coding.
+- Break down the tasks into smaller, manageable steps.
+- Write clean, readable, and well-documented code.
+- Feel free to use any additional libraries or tools that you find helpful.
+
+Good luck with the challenge! If you have any questions, feel free to reach out.
